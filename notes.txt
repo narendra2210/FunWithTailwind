@@ -1,0 +1,9 @@
+output.css -> flushing css that flust the default css of all browser so that 
+everywhere in browser website seems same
+
+
+it is basicaaly helpful like in this we know the css and we also know what is happening 
+
+source ke andar ki saari css file trace hori h
+
+outside src noone will get this to execute css as it is not mention in tailwind config
