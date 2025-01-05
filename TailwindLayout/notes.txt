@@ -1,0 +1,8 @@
+Analyze the website in the row form like there are two component in a row
+
+Two types of layout - 
+equal and non equal size
+
+sm:grid-cols-2 -> above than smaller will have that property of column in a row
+
+sm -> smaller se above

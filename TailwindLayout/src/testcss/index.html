@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../output.css" rel="stylesheet">
+    <title>Title css</title>
+</head>
+<body>
+
+    <!-- Equal parts -->
+
+    <!-- for 2 div -->
+    <div class="grid gap-4 m-4 sm:grid-cols-2">
+        <div class="rounded bg-orange-500 shadow-xl min-h-[100px]">1</div>
+        <div class="rounded bg-blue-500 shadow-xl min-h-[100px]">2</div>
+      </div>
+
+
+        <!-- for 3 div -->
+      <div class="grid gap-4 m-4 sm:grid-cols-3">
+        <div class="rounded bg-orange-500 shadow-xl min-h-[100px]">1</div>
+        <div class="rounded bg-blue-500 shadow-xl min-h-[100px]">2</div>
+        <div class="rounded bg-red-500 shadow-xl min-h-[100px]">3</div>
+      </div>
+
+
+    <!-- Non-Equal parts -->
+
+    <!-- for 2 div  -->
+    <div class="grid gap-4 m-4 sm:grid-cols-12">
+        <div class="rounded bg-orange-500 shadow-xl min-h-[100px] sm:col-span-4">1</div>
+        <div class="rounded bg-blue-500 shadow-xl min-h-[100px] sm:col-span-8">2</div>
+      </div>
+
+      <!-- for 3 div  -->
+      <div class="grid gap-4 m-4 sm:grid-cols-12">
+        <div class="rounded bg-orange-500 shadow-xl min-h-[100px] sm:col-span-4">1</div>
+        <div class="rounded bg-blue-500 shadow-xl min-h-[100px] sm:col-span-6">2</div>
+        <div class="rounded bg-red-500 shadow-xl min-h-[100px] sm:col-span-2">3</div>
+      </div>
+
+      <!-- Like tailwind webisite , left and right block will be hidden when stretch -->
+      <div class="grid gap-4 m-4 sm:grid-cols-12">
+        <div class="rounded bg-orange-500 shadow-xl min-h-[100px] sm:col-span-2 sm:block hidden">1</div>
+        <div class="rounded bg-blue-500 shadow-xl min-h-[100px] sm:col-span-8">2</div>
+        <div class="rounded bg-red-500 shadow-xl min-h-[100px] sm:col-span-2 sm:block hidden">3</div>
+      </div>
+</body>
+</html>
